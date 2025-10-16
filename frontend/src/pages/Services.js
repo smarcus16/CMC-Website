@@ -62,6 +62,12 @@ const Services = () => {
     },
     {
       icon: <Eye className="w-12 h-12" />,
+      title: 'Telehealth Services',
+      description: 'Virtual healthcare consultations from the comfort and safety of your home. Connect with our providers remotely for many types of appointments.',
+      features: ['Video Consultations', 'Remote Monitoring', 'Follow-up Visits', 'Prescription Refills'],
+    },
+    {
+      icon: <Eye className="w-12 h-12" />,
       title: 'Health Education',
       description: 'Patient education and resources to help you make informed decisions about your health.',
       features: ['Disease Prevention', 'Wellness Education', 'Medication Management', 'Health Resources'],
