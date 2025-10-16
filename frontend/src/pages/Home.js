@@ -170,18 +170,25 @@ const Home = () => {
                 <ArrowRight className="ml-2" size={20} />
               </Link>
             </div>
-            <div className="grid grid-cols-1 gap-6">
-              {values.map((value, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
-                >
-                  <div className="text-blue-600 mb-4">{value.icon}</div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{value.title}</h3>
-                  <p className="text-gray-600">{value.description}</p>
-                </div>
-              ))}
+            <div>
+              <img 
+                src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MDU4NzU1M3ww&ixlib=rb-4.1.0&q=85" 
+                alt="Doctor with patient" 
+                className="rounded-2xl shadow-2xl w-full h-auto object-cover"
+              />
             </div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-12">
+            {values.map((value, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
+              >
+                <div className="text-blue-600 mb-4">{value.icon}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{value.title}</h3>
+                <p className="text-gray-600">{value.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
