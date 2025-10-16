@@ -187,22 +187,30 @@ const Home = () => {
           </p>
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl p-6">
-              <div className="w-20 h-20 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">MA</div>
+              <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-sm text-gray-500 font-medium text-center px-2">Photo<br />Coming Soon</span>
+              </div>
               <h3 className="font-semibold text-gray-900">Dr. Marcelo Anayas</h3>
               <p className="text-sm text-gray-600">Internal Medicine</p>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl p-6">
-              <div className="w-20 h-20 bg-teal-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">CA</div>
+              <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-sm text-gray-500 font-medium text-center px-2">Photo<br />Coming Soon</span>
+              </div>
               <h3 className="font-semibold text-gray-900">Dr. Concepcion Anayas</h3>
               <p className="text-sm text-gray-600">Pediatrics</p>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl p-6">
-              <div className="w-20 h-20 bg-blue-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">PP</div>
+              <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-sm text-gray-500 font-medium text-center px-2">Photo<br />Coming Soon</span>
+              </div>
               <h3 className="font-semibold text-gray-900">Dr. Pam Perry</h3>
               <p className="text-sm text-gray-600">Pediatrics</p>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl p-6">
-              <div className="w-20 h-20 bg-teal-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">SR</div>
+              <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <span className="text-sm text-gray-500 font-medium text-center px-2">Photo<br />Coming Soon</span>
+              </div>
               <h3 className="font-semibold text-gray-900">Sherene Roach</h3>
               <p className="text-sm text-gray-600">Pediatrics, ARNP</p>
             </div>
