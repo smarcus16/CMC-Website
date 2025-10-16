@@ -261,9 +261,12 @@ const Contact = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="text-blue-600 flex-shrink-0" size={20} />
-                    <a href={`tel:${location.phone.replace(/[^0-9]/g, '')}`} className="text-blue-600 hover:text-blue-700">
-                      {location.phone}
-                    </a>
+                    <div>
+                      <a href={`tel:${location.phone.replace(/[^0-9]/g, '')}`} className="text-blue-600 hover:text-blue-700 block">
+                        {location.phone}
+                      </a>
+                      <p className="text-sm text-gray-600">Fax: {location.fax}</p>
+                    </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Clock className="text-blue-600 flex-shrink-0 mt-1" size={20} />
