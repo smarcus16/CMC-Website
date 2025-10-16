@@ -45,19 +45,21 @@ const Contact = () => {
   const locations = [
     {
       name: 'Orange City Office',
-      address: '2300 S. Volusia Ave.',
+      address: '810 Commed Blvd.',
       city: 'Orange City, FL 32763',
-      phone: '(386) 775-0333',
+      phone: '(386) 775-1792',
+      fax: '(386) 775-1750',
       hours: 'Monday - Friday: 8:00 AM - 5:00 PM',
-      mapUrl: 'https://maps.google.com/?q=2300+S.+Volusia+Ave.+Orange+City+FL+32763',
+      mapUrl: 'https://maps.google.com/?q=810+Commed+Blvd.+Orange+City+FL+32763',
     },
     {
       name: 'DeLand Office',
-      address: '1710 N. Woodland Blvd.',
+      address: '1190 N. Stone St.',
       city: 'DeLand, FL 32720',
-      phone: '(386) 775-0333',
+      phone: '(386) 738-1792',
+      fax: '(386) 738-4865',
       hours: 'Monday - Friday: 8:00 AM - 5:00 PM',
-      mapUrl: 'https://maps.google.com/?q=1710+N.+Woodland+Blvd.+DeLand+FL+32720',
+      mapUrl: 'https://maps.google.com/?q=1190+N.+Stone+St.+DeLand+FL+32720',
     },
   ];
 
