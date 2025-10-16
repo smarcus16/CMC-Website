@@ -23,9 +23,11 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-2xl">CMC</span>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_new-cmcwv/artifacts/k53oyjxj_cmc_logo_concept.jpg" 
+                alt="CMC West Volusia" 
+                className="h-16 w-auto"
+              />
               <div className="hidden lg:block">
                 <span className="text-lg font-bold text-gray-900">Community Medical Center</span>
                 <p className="text-xs text-gray-600">of West Volusia</p>

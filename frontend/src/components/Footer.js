@@ -9,11 +9,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">CMC</span>
-              </div>
-              <span className="text-white font-bold">Community Medical</span>
+            <div className="mb-4">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_new-cmcwv/artifacts/k53oyjxj_cmc_logo_concept.jpg" 
+                alt="CMC West Volusia" 
+                className="h-12 w-auto mb-3"
+              />
             </div>
             <p className="text-sm mb-4">
               A Rural Health Clinic providing accessible, quality primary healthcare services to the underserved populations of West Volusia, Florida.
@@ -77,7 +78,11 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <Clock size={18} className="mt-1 flex-shrink-0" />
-                <span>Mon-Fri: 8:00 AM - 5:00 PM</span>
+                <div>
+                  <p>Mon-Fri: 8:00 AM - 5:00 PM</p>
+                  <p>Sat: 9:00 AM - 1:00 PM*</p>
+                  <p className="text-xs text-gray-400 mt-1">*Hours may vary, call to verify</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -96,7 +101,11 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <Clock size={18} className="mt-1 flex-shrink-0" />
-                <span>Mon-Fri: 8:00 AM - 5:00 PM</span>
+                <div>
+                  <p>Mon-Fri: 8:00 AM - 5:00 PM</p>
+                  <p>Sat: 9:00 AM - 1:00 PM*</p>
+                  <p className="text-xs text-gray-400 mt-1">*Hours may vary, call to verify</p>
+                </div>
               </li>
             </ul>
           </div>
