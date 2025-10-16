@@ -268,9 +268,13 @@ const Contact = () => {
                       <p className="text-sm text-gray-600">Fax: {location.fax}</p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-3">
+                  <div className="flex items-start space-x-2">
                     <Clock className="text-blue-600 flex-shrink-0 mt-1" size={20} />
-                    <p className="text-gray-700">{location.hours}</p>
+                    <div>
+                      <p className="text-gray-700">Mon-Fri: 8:00 AM - 5:00 PM</p>
+                      <p className="text-gray-700">Sat: 9:00 AM - 1:00 PM*</p>
+                      <p className="text-xs text-gray-500 mt-1">*Saturday hours may vary, please call to verify</p>
+                    </div>
                   </div>
                   <a
                     href={location.mapUrl}
