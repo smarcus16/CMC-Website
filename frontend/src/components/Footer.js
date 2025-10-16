@@ -10,14 +10,13 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img 
-                src="https://www.cmcwv.com/images/familyPractice.png" 
-                alt="Community Medical Center" 
-                className="h-10 w-auto"
-              />
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">CMC</span>
+              </div>
+              <span className="text-white font-bold">Community Medical</span>
             </div>
             <p className="text-sm mb-4">
-              Providing accessible, quality primary healthcare services to the underserved populations of West Volusia, Florida.
+              A Rural Health Clinic providing accessible, quality primary healthcare services to the underserved populations of West Volusia, Florida.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-blue-400 transition-colors">
@@ -52,6 +51,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/providers" className="hover:text-blue-400 transition-colors">
+                  Our Providers
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="hover:text-blue-400 transition-colors">
                   Contact
                 </Link>
@@ -65,11 +69,11 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span>2300 S. Volusia Ave.<br />Orange City, FL 32763</span>
+                <span>810 Commed Blvd.<br />Orange City, FL 32763</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={18} />
-                <span>(386) 775-0333</span>
+                <span>(386) 775-1792</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Clock size={18} className="mt-1 flex-shrink-0" />
@@ -84,11 +88,11 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span>1710 N. Woodland Blvd.<br />DeLand, FL 32720</span>
+                <span>1190 N. Stone St.<br />DeLand, FL 32720</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={18} />
-                <span>(386) 775-0333</span>
+                <span>(386) 738-1792</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Clock size={18} className="mt-1 flex-shrink-0" />

@@ -10,6 +10,7 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
+    { name: 'Our Providers', path: '/providers' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -22,11 +23,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
-              <img 
-                src="https://www.cmcwv.com/images/familyPractice.png" 
-                alt="Community Medical Center" 
-                className="h-14 w-auto"
-              />
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-2xl">CMC</span>
+              </div>
               <div className="hidden lg:block">
                 <span className="text-lg font-bold text-gray-900">Community Medical Center</span>
                 <p className="text-xs text-gray-600">of West Volusia</p>
@@ -35,7 +34,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -50,7 +49,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="tel:386-775-0333"
+              href="tel:386-775-1792"
               className="flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
             >
               <Phone size={18} />
@@ -89,11 +88,11 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="tel:386-775-0333"
+              href="tel:386-775-1792"
               className="flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 w-full justify-center mt-4"
             >
               <Phone size={18} />
-              <span className="font-medium">Call: (386) 775-0333</span>
+              <span className="font-medium">Call: (386) 775-1792</span>
             </a>
           </div>
         </div>
