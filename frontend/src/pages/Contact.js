@@ -196,8 +196,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                    <a href="tel:386-775-0333" className="text-blue-600 hover:text-blue-700">
-                      (386) 775-0333
+                    <a href="tel:386-775-1792" className="text-blue-600 hover:text-blue-700 block">
+                      Orange City: (386) 775-1792
+                    </a>
+                    <a href="tel:386-738-1792" className="text-blue-600 hover:text-blue-700 block">
+                      DeLand: (386) 738-1792
                     </a>
                   </div>
                 </div>
