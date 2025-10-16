@@ -88,25 +88,41 @@ const About = () => {
 
       {/* Our Story */}
       <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Our Story</h2>
-          <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
-            <p>
-              Community Medical Center of West Volusia was established in 1998 with a simple yet powerful mission: 
-              to ensure that quality healthcare is accessible to everyone in our community, regardless of their 
-              ability to pay.
-            </p>
-            <p>
-              Over the past two decades, we have grown from a small clinic to a comprehensive healthcare center 
-              serving thousands of patients across West Volusia. Our commitment to preventive care, chronic disease 
-              management, and patient education has helped improve health outcomes for countless families.
-            </p>
-            <p>
-              Today, with two convenient locations in Orange City and DeLand, we continue to expand our services 
-              to meet the evolving needs of our community. From pediatric care to adult primary care, our dedicated 
-              team of healthcare professionals works tirelessly to ensure every patient receives compassionate, 
-              quality care.
-            </p>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold text-gray-900 mb-8">Our Story</h2>
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Community Medical Center of West Volusia was established in 1998 with a simple yet powerful mission: 
+                  to ensure that quality healthcare is accessible to everyone in our community, regardless of their 
+                  ability to pay.
+                </p>
+                <p>
+                  Over the past two decades, we have grown from a small clinic to a comprehensive healthcare center 
+                  serving thousands of patients across West Volusia. Our commitment to preventive care, chronic disease 
+                  management, and patient education has helped improve health outcomes for countless families.
+                </p>
+                <p>
+                  Today, with two convenient locations in Orange City and DeLand, we continue to expand our services 
+                  to meet the evolving needs of our community. From pediatric care to adult primary care, our dedicated 
+                  team of healthcare professionals works tirelessly to ensure every patient receives compassionate, 
+                  quality care.
+                </p>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <img 
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc2MDU4NzU0OHww&ixlib=rb-4.1.0&q=85" 
+                alt="Healthcare professional" 
+                className="rounded-2xl shadow-xl w-full h-64 object-cover"
+              />
+              <img 
+                src="https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg" 
+                alt="Medical team" 
+                className="rounded-2xl shadow-xl w-full h-64 object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
