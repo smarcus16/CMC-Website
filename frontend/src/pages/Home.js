@@ -47,7 +47,7 @@ const Home = () => {
                 Serving West Volusia families with compassionate primary care for all ages.
               </p>
               <p className="text-lg mb-8 text-blue-100">
-                Rural Health Clinic • Medicaid Accepted • Walk-ins Welcome
+                Rural Health Clinic • Medicaid Accepted • Walk-ins Welcome • Telehealth Available
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
