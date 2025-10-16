@@ -77,14 +77,13 @@ const Providers = () => {
               <div key={index} className={`grid md:grid-cols-2 gap-12 items-start ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
                 <div className={`${index % 2 === 1 ? 'md:col-start-2' : ''}`}>
                   <div className="relative">
-                    <img 
-                      src={provider.image} 
-                      alt={provider.name} 
-                      className="rounded-2xl shadow-2xl w-full h-96 object-cover"
-                      onError={(e) => {
-                        e.target.src = 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?crop=entropy&cs=srgb&fm=jpg&q=85';
-                      }}
-                    />
+                    <div className="rounded-2xl shadow-2xl w-full h-96 bg-gray-200 flex items-center justify-center">
+                      <div className="text-center p-8">
+                        <div className="text-6xl text-gray-400 mb-4">📷</div>
+                        <p className="text-xl font-semibold text-gray-600">Photo Coming Soon</p>
+                        <p className="text-sm text-gray-500 mt-2">Professional photo will be added</p>
+                      </div>
+                    </div>
                     <div className="absolute -bottom-6 left-6 right-6 bg-white rounded-xl shadow-lg p-4">
                       <div className="flex items-center space-x-3">
                         <div className="bg-blue-100 text-blue-600 p-3 rounded-lg">
