@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   Stethoscope, Baby, Heart, Activity, Syringe, 
-  Microscope, Thermometer, Users, Shield, Eye 
+  Microscope, Thermometer, Users, Shield, Eye, Monitor 
 } from 'lucide-react';
 
 const Services = () => {
