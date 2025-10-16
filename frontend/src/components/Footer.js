@@ -10,10 +10,11 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">CMC</span>
-              </div>
-              <span className="text-white font-bold">Community Medical</span>
+              <img 
+                src="https://www.cmcwv.com/images/familyPractice.png" 
+                alt="Community Medical Center" 
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm mb-4">
               Providing accessible, quality primary healthcare services to the underserved populations of West Volusia, Florida.
