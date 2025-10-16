@@ -61,7 +61,7 @@ const Services = () => {
       features: ['ADHD Screening', 'Autism Screening', 'Developmental Support', 'Care Coordination'],
     },
     {
-      icon: <Eye className="w-12 h-12" />,
+      icon: <Monitor className="w-12 h-12" />,
       title: 'Telehealth Services',
       description: 'Virtual healthcare consultations from the comfort and safety of your home. Connect with our providers remotely for many types of appointments.',
       features: ['Video Consultations', 'Remote Monitoring', 'Follow-up Visits', 'Prescription Refills'],
