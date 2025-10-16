@@ -21,13 +21,15 @@ const Navbar = () => {
         <div className="flex justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">CMC</span>
-              </div>
-              <div className="hidden sm:block">
-                <span className="text-xl font-bold text-gray-900">Community Medical</span>
-                <p className="text-xs text-gray-600">Center of West Volusia</p>
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="https://www.cmcwv.com/images/familyPractice.png" 
+                alt="Community Medical Center" 
+                className="h-14 w-auto"
+              />
+              <div className="hidden lg:block">
+                <span className="text-lg font-bold text-gray-900">Community Medical Center</span>
+                <p className="text-xs text-gray-600">of West Volusia</p>
               </div>
             </Link>
           </div>
