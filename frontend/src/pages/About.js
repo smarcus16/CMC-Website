@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Target, Award, Users, Shield } from 'lucide-react';
+import { Heart, Target, Award, Users, Shield, Home as HomeIcon } from 'lucide-react';
 
 const About = () => {
   const stats = [
