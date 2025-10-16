@@ -16,8 +16,8 @@ const Home = () => {
     },
     {
       icon: <Activity className="w-8 h-8" />,
-      title: 'Well-Child Visits',
-      description: 'Regular checkups to monitor your child\'s growth and development.',
+      title: 'Telehealth Services',
+      description: 'Virtual healthcare consultations from the comfort of your home.',
     },
     {
       icon: <Heart className="w-8 h-8" />,
