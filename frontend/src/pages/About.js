@@ -31,7 +31,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">About Us</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Committed to providing accessible, quality healthcare to the West Volusia community since 1998
+            A Rural Health Clinic serving West Volusia families since 1998
           </p>
         </div>
       </section>
