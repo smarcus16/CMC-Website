@@ -47,8 +47,16 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-teal-600 text-white pt-32 pb-20 px-4">
-        <div className="max-w-7xl mx-auto">
+      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-teal-600 text-white pt-32 pb-20 px-4 overflow-hidden">
+        {/* Background image overlay */}
+        <div className="absolute inset-0 opacity-20">
+          <img 
+            src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHw0fHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MDU4NzU1M3ww&ixlib=rb-4.1.0&q=85" 
+            alt="Healthcare professionals" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
