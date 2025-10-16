@@ -119,40 +119,49 @@ const Services = () => {
 
       {/* Additional Information */}
       <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-teal-50">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-              What to Expect During Your Visit
-            </h2>
-            <div className="space-y-6 text-gray-700">
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">New Patients</h3>
-                <p>
-                  We welcome new patients! Please bring a valid ID, insurance card (if applicable), 
-                  and a list of current medications. Arrive 15 minutes early to complete registration forms.
-                </p>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+                What to Expect During Your Visit
+              </h2>
+              <div className="space-y-6 text-gray-700">
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">New Patients</h3>
+                  <p>
+                    We welcome new patients! Please bring a valid ID, insurance card (if applicable), 
+                    and a list of current medications. Arrive 15 minutes early to complete registration forms.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Insurance & Payment</h3>
+                  <p>
+                    We accept most major insurance plans, Medicare, and Medicaid. We also offer a sliding 
+                    fee scale based on family size and income for uninsured patients. Payment plans are available.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Scheduling</h3>
+                  <p>
+                    Appointments can be scheduled by calling our office. We also accept walk-ins, though 
+                    wait times may vary. Same-day appointments are often available for urgent needs.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Patient-Centered Care</h3>
+                  <p>
+                    Our approach focuses on treating the whole person - physical, mental, and emotional health. 
+                    We take time to listen to your concerns and involve you in all healthcare decisions.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Insurance & Payment</h3>
-                <p>
-                  We accept most major insurance plans, Medicare, and Medicaid. We also offer a sliding 
-                  fee scale based on family size and income for uninsured patients. Payment plans are available.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Scheduling</h3>
-                <p>
-                  Appointments can be scheduled by calling our office. We also accept walk-ins, though 
-                  wait times may vary. Same-day appointments are often available for urgent needs.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Patient-Centered Care</h3>
-                <p>
-                  Our approach focuses on treating the whole person - physical, mental, and emotional health. 
-                  We take time to listen to your concerns and involve you in all healthcare decisions.
-                </p>
-              </div>
+            </div>
+            <div className="hidden md:block">
+              <img 
+                src="https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg" 
+                alt="Medical appointment" 
+                className="rounded-2xl shadow-2xl w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
