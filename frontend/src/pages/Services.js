@@ -71,8 +71,15 @@ const Services = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-teal-600 text-white py-20 px-4">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="relative bg-gradient-to-br from-blue-600 to-teal-600 text-white py-20 px-4 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <img 
+            src="https://images.unsplash.com/photo-1611764461465-09162da6465a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwyfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc2MDU4NzU0OHww&ixlib=rb-4.1.0&q=85" 
+            alt="Healthcare services" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             Comprehensive healthcare services tailored to meet the diverse needs of our community
