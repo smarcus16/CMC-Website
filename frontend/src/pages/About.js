@@ -39,7 +39,7 @@ const About = () => {
       {/* Mission & Vision */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-12 mb-16">
             <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8">
               <div className="flex items-center mb-6">
                 <div className="bg-blue-600 text-white p-3 rounded-lg mr-4">
@@ -67,6 +67,49 @@ const About = () => {
                 accessible, high-quality medical care, prevention-focused services, and our dedication to improving 
                 the health and wellbeing of every individual in our community.
               </p>
+            </div>
+          </div>
+
+          {/* Rural Health Clinic Section */}
+          <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-2xl p-8 md:p-12 mb-16">
+            <div className="flex items-center mb-6">
+              <div className="bg-white/20 p-3 rounded-lg mr-4">
+                <HomeIcon size={40} />
+              </div>
+              <h2 className="text-3xl font-bold">Rural Health Clinic</h2>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <p className="text-lg text-blue-50 mb-4 leading-relaxed">
+                  As a federally designated Rural Health Clinic, we are committed to providing comprehensive primary care 
+                  to medically underserved rural communities. This special designation allows us to serve patients who 
+                  might otherwise have difficulty accessing quality healthcare.
+                </p>
+                <h3 className="font-semibold text-xl mb-3">We Accept Medicaid HMO Plans:</h3>
+                <ul className="space-y-2 text-blue-50">
+                  <li className="flex items-center"><div className="w-2 h-2 bg-white rounded-full mr-3"></div> Sunshine Health</li>
+                  <li className="flex items-center"><div className="w-2 h-2 bg-white rounded-full mr-3"></div> Humana</li>
+                  <li className="flex items-center"><div className="w-2 h-2 bg-white rounded-full mr-3"></div> Florida Community Care</li>
+                  <li className="flex items-center"><div className="w-2 h-2 bg-white rounded-full mr-3"></div> UnitedHealthcare (Coming Soon)</li>
+                </ul>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                <h3 className="font-semibold text-xl mb-4">Our Commitment to Access</h3>
+                <ul className="space-y-3 text-blue-50">
+                  <li className="flex items-start">
+                    <Shield className="mr-3 flex-shrink-0 mt-1" size={20} />
+                    <span>Sliding fee scale for uninsured patients based on family size and income</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Users className="mr-3 flex-shrink-0 mt-1" size={20} />
+                    <span>Walk-ins welcome - no appointment necessary</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Heart className="mr-3 flex-shrink-0 mt-1" size={20} />
+                    <span>Comprehensive care for the whole person - body, mind, and spirit</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
