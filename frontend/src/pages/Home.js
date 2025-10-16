@@ -93,8 +93,9 @@ const Home = () => {
                       <Calendar size={24} />
                     </div>
                     <div className="text-gray-700">
-                      <p className="font-semibold">2 Convenient Locations</p>
-                      <p className="text-sm">Orange City & DeLand</p>
+                      <p className="font-semibold">Extended Hours</p>
+                      <p className="text-sm">Saturday 9:00 AM - 1:00 PM*</p>
+                      <p className="text-xs text-gray-500">*Hours vary, call to verify</p>
                     </div>
                   </div>
                 </div>
